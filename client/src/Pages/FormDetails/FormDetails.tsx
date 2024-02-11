@@ -9,7 +9,8 @@ import Mobile_Footer from "../../Assets/Images/Mobile_Footer.png";
 import FormDetailsContainer from "../../Components/FormDetailsContainer/FormDetailsContainer";
 import FormDetailsHeader from "../../Components/FormDetailsHeader/FormDetailsHeader";
 import FormDetailsNavbar from "../../Components/FormDetailsNavbar/FormDetailsNavbar";
-import neww from "../../Assets/Images/newww.png";
+// import neww from "../../Assets/Images/newww.png";
+import neww from "../../Assets/Images/newwww.jpeg";
 import { isMobile } from "react-device-detect";
 function FormDetails() {
   const location = useLocation();
