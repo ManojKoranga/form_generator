@@ -49,7 +49,7 @@ function FormDetails() {
       {isScroll ? <FormDetailsNavbar /> : isMobile ? <img src={neww} alt="" className={styles.new_img} /> : <FormDetailsHeader />}
 
       <FormDetailsContainer id={location.pathname.split("/")[3]} isMobile={isMobile} />
-
+ssss
       <div className={styles.middle}>
         {isMobile ? <img src={Mobile_Middle} alt="" className={styles.img} /> : <img src={Middle} alt="" className={styles.img} />}
       </div>
