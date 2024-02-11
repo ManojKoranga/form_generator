@@ -3,13 +3,12 @@ import { useLocation } from "react-router-dom";
 import styles from "./style.module.css";
 
 import Middle from "../../Assets/Images/Middle.png";
-import Mobile_Middle from "../../Assets/Images/Mobile_Middle.png";
+import Mobile_Middle from "../../Assets/Images/Mobile_Middle.jpeg";
 import Footer from "../../Assets/Images/Footer.png";
-import Mobile_Footer from "../../Assets/Images/Mobile_Footer.png";
+import Mobile_Footer from "../../Assets/Images/Mobile_Footer.jpeg";
 import FormDetailsContainer from "../../Components/FormDetailsContainer/FormDetailsContainer";
 import FormDetailsHeader from "../../Components/FormDetailsHeader/FormDetailsHeader";
 import FormDetailsNavbar from "../../Components/FormDetailsNavbar/FormDetailsNavbar";
-// import neww from "../../Assets/Images/newww.png";
 import neww from "../../Assets/Images/newwww.jpeg";
 import { isMobile } from "react-device-detect";
 function FormDetails() {
