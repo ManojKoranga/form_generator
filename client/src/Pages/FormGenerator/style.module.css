@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  height: 98vh;
+  padding-top: 10px;
+  background-color: rgb(231, 230, 230);
+  overflow: auto;
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  height: 5%;
+  width: 98%;
+  border-bottom: 1px solid rgb(212, 210, 210);
+}
+.form_container{
+
+  /* border: 1px solid red; */
+  width: 98%;
+  margin: 10px auto;
+  height: auto;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 20px;
+}
+.fields {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid red;
+}
+.btn {
+  width: 200px;
+  background-color: rgb(7, 20, 113);
+  color: white;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.loader {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
